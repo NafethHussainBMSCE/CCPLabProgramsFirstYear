@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,n,q,sum=0,temp;
+    printf("Enter the number\n");
+    scanf("%d",&n);
+    temp=n;
+    while(n>0)
+    {
+        q=n%10;
+        sum=sum+q;
+        n=n/10;
+    }
+    printf("The sum of the digits are %d",sum);
+    getch();
+    return 0;
+}
