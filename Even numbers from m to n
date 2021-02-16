@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int m,n,i;
+    printf("Enter the lower and upper limit\n");
+    scanf("%d%d",&m,&n);
+    printf("The even numbers between %d and %d are\n",m,n);
+    for(i=m;i<=n;i++)
+    {
+        if(i%2==0)
+            printf("%d\n",i);
+    }
+    getch();
+    return 0;
+}
